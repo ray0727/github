@@ -8,7 +8,6 @@ def callback(data):
       if ans.Class == 'person':
          x = (ans.xmin+ans.xmax)/2
          y = (ans.ymin+ans.ymax)/2
-         print("123")
          print(x)
          print(y)
 def get():
